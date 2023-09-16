@@ -9,17 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@reservoir0x/ethers-wallet-adapter": "^0.2.2",
+    "@reservoir0x/reservoir-sdk": "^1.4.2",
     "@types/node": "20.5.9",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
+    "@web3-onboard/injected-wallets": "^2.10.5",
+    "@web3-onboard/react": "^2.8.11",
     "autoprefixer": "10.4.15",
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
+    "ethers": "^5.7.2",
     "next": "13.4.19",
     "postcss": "8.4.29",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "tailwindcss": "3.3.3",
-    "typescript": "5.2.2"
+    "typescript": "5.2.2",
+    "viem": "^1.6.4"
   }
 }
